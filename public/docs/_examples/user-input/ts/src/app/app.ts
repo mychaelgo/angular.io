@@ -33,7 +33,7 @@ class LoopbackComponent {
   selector: 'key-up',
   template: `
     <h4>Give me some keys!</h4>
-    <div><input (keyup)="onKey($event)"><div>
+    <div><input (keyup)="onKey($event)"></div>
     <div>{{values}}</div>
   `
 })
